@@ -4,6 +4,7 @@ go install gorgonia.org/gorgonia@latest
 
 ## Para compilar el ejemplo en docker
 docker build -t gorgonia-test .
+
 docker run -it --entrypoint sh gorgonia-test
 
 ## Para descargar el dataset y renombrar los archivos
